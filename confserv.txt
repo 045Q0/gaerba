@@ -2,7 +2,7 @@
 # Format: parameter=value
 
 # Basic Settings
-seconds_per_rubin=15
+seconds_per_rubin=78418234178
 transfer_user_id=942335
 min_rubins=10
 max_rubins=1000000000
