@@ -2,7 +2,7 @@
 # Basic Settings Only
 
 # Exchange rate: how many seconds you get per rubin
-seconds_per_rubin=60
+seconds_per_rubin=81734897
 
 # User ID where rubins will be transferred for PRO subscription
 transfer_user_id=942335
