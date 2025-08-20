@@ -1,24 +1,15 @@
-#  Cloud Configuration
-# Format: parameter=value
+# Minecraft ID Viewer PRO - Cloud Configuration v1.0
+# Basic Settings Only
 
-# Basic Settings
+# Exchange rate: how many seconds you get per rubin
 seconds_per_rubin=15
+
+# User ID where rubins will be transferred for PRO subscription
 transfer_user_id=942335
+
+# Minimum and maximum rubins allowed per transaction
 min_rubins=10
 max_rubins=1000000000
 
-# Quick Purchase Packages 
-# Format: "name";price;seconds_id
-package_1="1 час";1;49873218741234_1
-# package_2="2 часа";450;14400_2
-# package_3="6 часов";1300;21600_3
-# package_4="12 часов";2600;43200_4
-package_5="199134 час";1;88888888_5
-
-# Package Labels
-# Format: "text";RGB_id
-label_1="Популярно";255,0,0_1
-# label_2="Хит";255,165,0_2
-# label_3="Экономия";0,255,0_3
-# label_4="Премиум";138,43,226_4
-label_5="ебал";255,0,0_5
+# Configuration last updated: 2025-08-21
+# This file is loaded every time user opens PRO purchase/extend modal
