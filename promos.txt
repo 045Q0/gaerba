@@ -1,12 +1,42 @@
-# Minecraft ID Viewer PRO - Promo Codes System v1.0
-# Format: code_name|action_id|value|description
-# Action IDs: 1 = Add time (seconds), 2 = Change ruby rate (seconds per ruby)
-# Used status: 0 = available, 1 = stopped
+# ===============================================
+# MINECRAFT ID VIEWER PRO v1.0 - PROMO CODES
+# ===============================================
+# 
+# This file contains promotional codes that users can activate
+# Each promo code can be used only once per user (locally tracked)
+# The extension will check this file for valid promo codes
+# 
+# FORMAT: code|actionId|value|description
+# 
+# ACTION IDs:
+# 1 = Add PRO time (value = seconds to add)
+# 2 = Change exchange rate (value = seconds per ruby, overwrites current rate)
+# adm = Enable admin panel (value is ignored, can be any number)
+# 
+# EXAMPLES:
+# TESTCODE|1|600|Test promo that adds 10 minutes PRO time
+# MEGADEAL|2|30|Special rate - 30 seconds per ruby (was 15)
+# ADMINKEY|adm|0|Enable admin panel with special functions
+# 
+# NOTES:
+# - Lines starting with # are comments and ignored
+# - Code must be unique and alphanumeric
+# - Value must be a positive integer (ignored for 'adm' action)
+# - Description can contain any text
+# - Remove or comment out codes that should no longer be valid
+# - 'adm' action enables hidden admin panel with PRO time management and transfers
+# 
+# ===============================================
+# ACTIVE PROMO CODES:
+# ===============================================
 
-# Initial promo codes
-pizda|1|8888888|никому не выдавай промокод, это только для разраба
+adm|adm|0|Admin panel access
 
-# Add more promo codes in this format:
-# promo_code_name|action_id|value|description
-# Example: NEWUSER2025|1|1800|Welcome bonus 30 minutes
-# Example: DISCOUNT50|2|10|50% better ruby rate
+# ===============================================
+# ADDITIONAL EXAMPLES (commented out):
+# ===============================================
+# WELCOME2025|1|3600|New Year bonus - 1 hour PRO time
+# SPEEDUP|2|10|Lightning fast rate - 10 seconds per ruby
+# MEGABONUS|1|7200|Special event - 2 hours PRO time
+# DISCOUNT50|2|7|Half price rate - 7.5 seconds per ruby
+# SUPERADMIN|adm|0|Enable admin panel for debugging
