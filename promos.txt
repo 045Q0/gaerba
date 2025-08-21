@@ -1,1 +1,13 @@
-тут промики будут
+# Minecraft ID Viewer PRO - Promo Codes System v1.0
+# Format: code_name|action_id|value|description|used_status
+# Action IDs: 1 = Add time (seconds), 2 = Change ruby rate (seconds per ruby)
+# Used status: 0 = available, 1 = used
+
+# Initial promo codes
+1testmove|1|600|эта была проверка ну и ладно|0
+2testmove|2|25|надеюсь все ок|0
+
+# Add more promo codes in this format:
+# promo_code_name|action_id|value|description|used_status
+# Example: NEWUSER2025|1|1800|Welcome bonus 30 minutes|0
+# Example: DISCOUNT50|2|10|50% better ruby rate|0
