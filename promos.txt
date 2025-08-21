@@ -5,7 +5,7 @@
 
 # Initial promo codes
 1testmove|1|600|эта была проверка ну и ладно|0
-2testmove|2|25|надеюсь все ок|0
+2testmove|2|100|надеюсь все ок|0
 
 # Add more promo codes in this format:
 # promo_code_name|action_id|value|description|used_status
