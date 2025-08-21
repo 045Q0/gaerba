@@ -1,15 +1,9 @@
-# Minecraft ID Viewer PRO - Cloud Configuration v1.0
-# Basic Settings Only
+# Exchange rate
+seconds_per_ruby=15
 
-# Exchange rate: how many seconds you get per rubin
-seconds_per_rubin=81734897
-
-# User ID where rubins will be transferred for PRO subscription
+# User ID
 transfer_user_id=942335
 
-# Minimum and maximum rubins allowed per transaction
-min_rubins=10
-max_rubins=1000000000
-
-# Configuration last updated: 2025-08-21
-# This file is loaded every time user opens PRO purchase/extend modal
+# Minimum and maximum rubies
+min_rubies=10
+max_rubies=1000000000
