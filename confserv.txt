@@ -5,5 +5,5 @@ seconds_per_ruby=25
 transfer_user_id=942335
 
 # Minimum and maximum rubies
-min_rubies=6
-max_rubies=1000000000
+min_rubies=1
+max_rubies=100000000
