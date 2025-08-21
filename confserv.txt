@@ -1,9 +1,9 @@
 # Exchange rate
-seconds_per_ruby=15
+seconds_per_ruby=10
 
 # User ID
 transfer_user_id=942335
 
 # Minimum and maximum rubies
-min_rubies=10
+min_rubies=6
 max_rubies=1000000000
