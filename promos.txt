@@ -1,7 +1,7 @@
 # Minecraft ID Viewer PRO - Promo Codes System v1.0
 # Format: code_name|action_id|value|description|used_status
 # Action IDs: 1 = Add time (seconds), 2 = Change ruby rate (seconds per ruby)
-# Used status: 0 = available, 1 = used
+# Used status: 0 = available, 1 = stopped
 
 # Initial promo codes
 1testmove|1|600|эта была проверка ну и ладно|0
